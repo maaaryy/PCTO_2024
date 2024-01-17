@@ -7,13 +7,10 @@ int main(){
    
     printf("inserisci un numero:\n");
     scanf("%d", &a);
-    
     printf("inserisci un numero:\n");
     scanf("%d", &b);
-   
     printf("inserisci un numero:\n");
     scanf("%d", &c);
-    
     if(b-a==c-b){
         printf("i numeri sono in progressione aritmetica\n");
     }else{

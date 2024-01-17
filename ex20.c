@@ -11,7 +11,6 @@ int main(){
     scanf("%d", &b);
     printf("inserisci un numero:\n");
     scanf("%d", &c);
-
     if(a+b>c){
         if(b+c>a){
             if(a+c>b){
@@ -25,7 +24,6 @@ int main(){
     } else{
          printf("non sono i lati di un triangolo\n");   
     }
-
     if(a != b){
         if(a!=c){
             if(b!=c){

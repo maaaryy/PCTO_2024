@@ -8,7 +8,6 @@ int main(){
     scanf("%d", &a);
     printf("a che età si prende la patente nel tuo paese?\n");
     scanf("%d", &b);
-
     if(a<b){
         printf("non puoi prendere la patente\n");
     }else if(a>=b){

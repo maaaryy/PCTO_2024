@@ -2,6 +2,7 @@
 
 int main(){
     int a;
+    
     printf("inserisci un numero:\n");
     scanf("%d", &a);
     if(a<5){

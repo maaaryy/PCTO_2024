@@ -3,6 +3,7 @@
 int main(){
     float temperaturaCelsius;
     float zeroAssoluto = -273.15;
+    
     printf("inserisci una temperatura in celsius:\n");
     scanf("%f", &temperaturaCelsius);
     if(temperaturaCelsius < zeroAssoluto){

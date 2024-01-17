@@ -5,7 +5,7 @@ int main(){
     int b = 101;
     int moltiplicazione = a*b;
     float divisione = moltiplicazione/2;
-    printf ("divisione: %f\n", divisione);
 
+    printf ("divisione: %f\n", divisione);
     return 0;
 }

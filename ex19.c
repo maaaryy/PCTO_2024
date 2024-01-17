@@ -11,7 +11,6 @@ int main(){
     scanf("%f", &b);
     printf("inserisci un numero:\n");
     scanf("%f", &c);
-    
     if(a+b>c){
         if(b+c>a){
             if(a+c>b){
