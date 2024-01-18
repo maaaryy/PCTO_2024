@@ -30,21 +30,21 @@ int main(){
     printf("inserisci un numero:\n");
     scanf("%d", &y);
     printf("inserisci operazione:\n");
-    scanf("%c", &c);
-     if((c=='+' ) || (c==43)){
-        somma = addizione(x,y);
+    scanf(" %c", &c);
+    if((c=='+' ) || (c==43)){
+        somma = addizione(x, y, somma);
         printf("la somma è %f\n", somma);
     }else if((c=='-') || (c==45)){
-        differenza = sottrazione(x,y);
+        differenza = sottrazione(x, y, differenza);
         printf("la differenza è %f\n", differenza);
-    }else if((c=='/' ) || (c==47)){
-        quoziente = divisione(x,y);
+    }else if((c=='/' ) || (c==47) && y!=0){
+        quoziente = divisione(x, y, quoziente);
         printf("la divisione è %f\n", quoziente);
     }else if((c=='*' ) || (c==42)){
-        prodotto = moltiplicazione(x,y);
+        prodotto = moltiplicazione(x, y, prodotto);
         printf("la moltiplicazone è %f\n", prodotto);
     }else{
         printf("il carattere scelto non corrisponde ad alcun operazione\n");
     }
-    
+    return(0);
 }
